@@ -7,7 +7,6 @@ export default {
     provides: ['__appFlag'],
 
     getLinks: function(og, url) {
-        console.log("✅ Medium plugin executing for:", url);
         if (og.type === 'profile' || og.type === 'medium-com:collection' || og.type === 'article') {
 
             let typeLabel = 'profile';
